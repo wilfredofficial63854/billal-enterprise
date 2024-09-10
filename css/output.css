@@ -964,6 +964,10 @@ video {
   width: 3rem;
 }
 
+.w-7 {
+  width: 1.75rem;
+}
+
 .w-9 {
   width: 2.25rem;
 }
@@ -2313,10 +2317,6 @@ video {
 
 .text-\[2\.5rem\] {
   font-size: 2.5rem;
-}
-
-.text-\[4rem\] {
-  font-size: 4rem;
 }
 
 .text-\[3rem\] {

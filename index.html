@@ -8,12 +8,20 @@
       <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
       <!-- <link rel="icon" href="../assets/tucelogo.jpeg" sizes="16x16"> -->
 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
       <style>
 
         .img-container{
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
+        }
+
+        .mini-header{
+          font-family: "Gloria Hallelujah", cursive;
         }
       </style>
   </head>
@@ -120,15 +128,24 @@
       <!-- Services -->
       <section class="w-full bg-gray-50 py-[10vh]">
         <div class="w-[65%] min-h-[400px] border-2 mx-auto">
-          <div class="w-full grid grid-cols-10 my-5">
-            <div class="col-span-8 flex items-center">
-              <h1 class="text-gray-800 text-4xl font-bold"> We offer the best services </h1>
+          <h1 class="mini-header my-5 text-green-600 flex items-center">
+            <img src="image/leaves.png" class="w-7 mr-2" />
+            <span class="font-bold">Our services </span>
+          </h1>
+          <div class="flex items-center">
+            <h1 class="text-gray-800 text-4xl font-bold"> We offer the best services </h1>
+          </div>
+
+          <!--<div class="w-full grid grid-cols-10 my-5">
+            <div class="col-span-8">
+              <h1 class="mini-header"> Our services </h1>
+              <div class="flex items-cente">
+                <h1 class="text-gray-800 text-4xl font-bold"> We offer the best services </h1>
+              </div>
             </div>
 
-            <div class="col-span-2 flex items-center justify-end">
-              Toggle
-            </div>
-          </div>
+
+          </div>-->
         </div>
       </section>
 
