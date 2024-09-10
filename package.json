@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "scripts": {
+    "build-css": "npx tailwindcss -i css/input.css -o css/output.css --watch"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "jquery": "^3.7.1"
+  }
+}
