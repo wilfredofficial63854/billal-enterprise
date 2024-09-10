@@ -9,12 +9,6 @@
       <!-- <link rel="icon" href="../assets/tucelogo.jpeg" sizes="16x16"> -->
 
       <style>
-        .banner{
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-image: url('image/img3.jpg');
-        }
 
         .img-container{
           background-size: cover;
@@ -55,11 +49,11 @@
       </nav>
 
       <!-- Banner -->
-      <section class="banner w-full h-[90vh]">
+      <section style="background-image: url('image/img3.jpg');" class="image-container w-full h-[60vh] sm:h-[90vh]">
         <div class="inset-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-          <div class="w-[65%]">
-            <h1 class="text-white text-[4rem] font-bold w-[50%]"> Agriculture & Farming </h1>
-            <div class="my-5 flex items-center w-[40%]">
+          <div class="w-[80%] sm:w-[65%]">
+            <h1 class="text-white text-[4rem] font-bold w-[80%] sm:w-[50%]"> Agriculture & Farming </h1>
+            <div class="my-5 flex items-center w-full sm:w-[40%]">
               <a href="#" class="mr-5 text-[0.8rem] py-2 px-5 rounded text-white bg-yellow-600 font-semibold transition hover:bg-yellow-800">
                  Read More
                  <i class="fa-solid fa-angles-right"></i>
@@ -75,7 +69,7 @@
       </section>
 
       <!-- Features -->
-      <section class="w-[65%] mx-auto mt-[-4rem] grid gap-5 grid-cols-6">
+      <section class="w-[80%] sm:w-[65%] mx-auto mt-[-4rem] grid gap-5 grid-cols-1 sm:grid-cols-6">
         <div class="col-span-2 bg-black min-h-[130px] shadow rounded">
 
         </div>
@@ -90,7 +84,7 @@
       </section>
 
       <!-- About Us -->
-      <section class="mx-auto w-[65%] my-[10vh] gap-10 grid grid-cols-10">
+      <section class="mx-auto w-[80%] sm:w-[65%] my-[10vh] gap-10 grid grid-cols-1 sm:grid-cols-10">
         <div class="col-span-5">
           Image
         </div>
@@ -140,12 +134,12 @@
 
       <!-- Testimonials -->
         <section class="w-full bg-white py-[10vh]">
-          <div class="w-[65%] mx-auto">
+          <div class="w-[80%] sm:w-[65%] mx-auto">
             <div class="text-center w-full">
               <h1 class="text-gray-800 text-4xl font-bold"> What our Customers say </h1>
             </div>
 
-            <div class="w-full gap-5 grid grid-cols-6 my-[5vh]">
+            <div class="w-full gap-5 grid grid-cols-1 sm:grid-cols-6 my-[5vh]">
               <div class="col-span-2 border-2">
                 Item 1
               </div>
@@ -162,17 +156,17 @@
         </section>
 
         <!-- Achievements -->
-        <section style="background-image: url('image/img5.jpg');" class="img-container w-full h-[70vh]">
+        <section style="background-image: url('image/img5.jpg');" class="img-container w-full h-[59vh] sm:h-[70vh]">
           <div class="inset-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-            <div class="mx-auto w-[60%] text-center">
+            <div class="mx-auto w-[80%] sm:w-[60%] text-center">
               <h1 class="text-white text-[2.5rem] font-bold"> Sustainable farming practices for a healthier tomorrow </h1>
             </div>
           </div>
         </section>
 
         <!-- Features -->
-        <section class="w-[65%] mx-auto mt-[-4rem] grid grid-cols-6">
-          <div class="col-span-2 bg-[#e8ffe8] border-2 min-h-[130px] shadow rounded-tl-lg rounded-bl-lg">
+        <section class="w-[80%] sm:w-[65%] mx-auto mt-[-4rem] grid grid-cols-1 sm:grid-cols-6">
+          <div class="col-span-2 bg-[#e8ffe8] border-2 min-h-[130px] shadow rounded-tl-lg rounded-tr-lg sm:rounded-bl-lg">
 
           </div>
 
@@ -180,19 +174,19 @@
 
           </div>
 
-          <div class="col-span-2 bg-[#e8ffe8] border-2 min-h-[130px] shadow rounded-tr-lg rounded-br-lg">
+          <div class="col-span-2 bg-[#e8ffe8] border-2 min-h-[130px] shadow sm:rounded-tr-lg rounded-bl-lg rounded-br-lg">
 
           </div>
         </section>
 
         <!-- Our Partners -->
           <section class="w-full bg-white py-[10vh]">
-            <div class="w-[65%] mx-auto">
+            <div class="w-[80%] sm:w-[65%] mx-auto">
               <div class="text-center w-full">
                 <h1 class="text-gray-800 text-4xl font-bold"> Our Partners </h1>
               </div>
 
-              <div class="w-full gap-5 grid grid-cols-6 my-[5vh]">
+              <div class="w-full gap-5 grid grid-cols-1 sm:grid-cols-6 my-[5vh]">
                 <div class="col-span-2 border-2">
                   Item 1
                 </div>
@@ -209,11 +203,11 @@
           </section>
 
           <!-- Contact Us -->
-          <section style="background-image: url('image/img6.jpg'); background-attachment: fixed;" class="img-container w-[65%] mx-auto h-[25vh] rounded-tr-lg rounded-tl-lg overflow-hidden">
+          <section style="background-image: url('image/img6.jpg'); background-attachment: fixed;" class="img-container w-full sm:w-[65%] mx-auto h-[25vh] rounded-tr-2xl rounded-tl-2xl sm:rounded-tr-lg sm:rounded-tl-lg overflow-hidden">
             <div class="inset-0 w-full h-full bg-black bg-opacity-80 flex items-center justify-center">
-              <div class="mx-auto w-[90%] flex items-center justify-between">
-                <h1 class="text-white text-2xl font-bold w-[40%]"> Need any help with your farm? </h1>
-                <a href="#" class="mr-5 text-[0.8rem] py-2 px-5 rounded text-white bg-yellow-600 font-semibold transition hover:bg-yellow-800">
+              <div class="text-center sm:text-left mx-auto w-[90%] sm:flex items-center justify-between">
+                <h1 class="my-5 sm:my-0 text-white text-2xl font-bold w-[90%] sm:w-[40%]"> Need any help with your farm? </h1>
+                <a href="#" class="my-5 sm:my-0 text-[0.8rem] py-2 px-5 rounded text-white bg-yellow-600 font-semibold transition hover:bg-yellow-800">
                    Contact Us
                    <i class="fa-solid fa-angles-right"></i>
                  </a>
@@ -225,7 +219,7 @@
           <footer style="background-attachment: fixed; background-image: url('image/img6.jpg');" class="img-container w-full">
             <div class="inset-0 w-full bg-black bg-opacity-80 flex items-center justify-center">
 
-              <div class="px-[2rem] py-[4rem] grid grid-cols-3 gap-10 w-[65%] mx-auto min-h-[40vh] bg-black bg-opacity-80 rounded-bl-lg rounded-br-lg border-gray-500 border-t-[1px] mb-[3rem]">
+              <div class="px-[2rem] py-[4rem] grid grid-cols-1 sm:grid-cols-3 gap-10 w-full sm:w-[65%] mx-auto min-h-[40vh] bg-black bg-opacity-80 rounded-bl-lg rounded-br-lg border-gray-500 border-t-[1px] mb-[3rem]">
 
                 <div class="col-span-1 min-h-[100px]">
                   <h2 class="text-2xl font-bold text-white"> Brand </h2>
