@@ -2319,6 +2319,10 @@ video {
   font-size: 4rem;
 }
 
+.text-\[3rem\] {
+  font-size: 3rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2937,6 +2941,10 @@ video {
 
   .sm\:text-left {
     text-align: left;
+  }
+
+  .sm\:text-\[4rem\] {
+    font-size: 4rem;
   }
 
   .sm\:underline {
