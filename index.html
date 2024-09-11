@@ -57,7 +57,7 @@
       </nav>
 
       <!-- Banner -->
-      <section style="background-image: url('image/img3.jpg');" class="image-container w-full h-[60vh] sm:h-[90vh]">
+      <section style="background-image: url('image/img3.jpg');" class="img-container w-full h-[60vh] sm:h-[90vh]">
         <div class="inset-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
           <div class="w-[80%] sm:w-[65%]">
             <h1 class="text-white text-[3rem] sm:text-[4rem] font-bold w-[80%] sm:w-[50%]"> Agro Business Services </h1>
@@ -94,16 +94,35 @@
       <!-- About Us -->
       <section class="mx-auto w-[80%] sm:w-[65%] my-[10vh] gap-10 grid grid-cols-1 sm:grid-cols-10">
         <div class="col-span-5">
-          Image
+          <img src="image/cm2.png" class="max-w-full"/>
         </div>
 
         <div class="col-span-5">
+          <h1 class="mini-header my-2 text-green-600 flex items-center">
+            <span class="mr-2 p-[3px] w-8 rounded-full flex items-center justify-center border-2 border-green-600">
+              <img src="image/maple-leaf.png" class="max-w-full" />
+            </span>
+            <span class="">about company </span>
+          </h1>
+
           <h1 class="text-gray-800 text-4xl font-bold my-5"> Agriculture & Farming Organic Products </h1>
           <p class="my-2 text-gray-400">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
             ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
+
+          <div class="my-5 w-full rounded-lg p-5 bg-gray-100 flex items-center">
+            <div class="flex items-center mr-[10px]">
+              <img src="image/vegetables.png" class="max-w-[40px] mr-2"/>
+              <h3 class="font-bold text-gray-800"> 100% Quality Products </h3>
+            </div>
+
+            <div class="flex items-center">
+              <img src="image/organic-food.png" class="max-w-[40px] mr-2"/>
+              <h3 class="font-bold text-gray-800"> 100% Organic </h3>
+            </div>
+          </div>
 
           <div class="my-5 flex items-center">
             <a href="#" class="mr-5 text-[0.8rem] py-2 px-5 rounded text-white bg-green-600 font-semibold transition hover:bg-green-800">
@@ -112,8 +131,8 @@
              </a>
 
              <div class="flex items-center">
-               <span class="rounded-full bg-blue-500 text-white flex items-center border-2 justify-center w-12 h-12">
-                A
+               <span class="rounded-full overflow-hidden bg-blue-500 text-white flex items-center justify-center w-12 h-12">
+                <img src="image/user.png" class="max-w-full" />
               </span>
 
               <span class="ml-[0.7rem] text-[0.8rem]">
@@ -151,26 +170,65 @@
 
       <!-- Testimonials -->
         <section class="w-full bg-white py-[10vh]">
-          <div class="w-[80%] sm:w-[65%] mx-auto">
+          <div class="w-[80%] sm:w-[70%] mx-auto">
             <div class="text-center w-full">
-              <h1 class="mini-header my-2 text-green-600 flex items-center">
+              <h1 class="mini-header my-2 text-green-600 flex items-center justify-center">
                 <img src="image/leaves.png" class="w-7 mr-2" />
                 <span class="">customer feedback </span>
               </h1>
               <h1 class="text-gray-800 text-4xl font-bold"> What our Customers say </h1>
             </div>
 
-            <div class="w-full gap-5 grid grid-cols-1 sm:grid-cols-6 my-[5vh]">
-              <div class="col-span-2 border-2">
-                Item 1
+            <div class="w-full gap-5 grid grid-cols-1 sm:grid-cols-6 my-[15vh]">
+              <!-- Card 1 -->
+              <div style="background-position: top right; background-size: 40%; background-image: url('image/ux.png');" class="bg-opacity-50 img-container col-span-2 border-2 min-h-[200px] rounded-xl">
+                <div class="mt-[-45px] overflow-hidden ml-[1.5rem] rounded-full bg-blue-500 text-white flex items-center justify-center w-[90px] h-[90px]">
+                  <img src="image/user.png" class="max-w-full" />
+                </div>
+
+                <div class="w-[80%] mx-auto my-2">
+                  <h3 class="font-semibold text-gray-800"> John Doe </h3>
+                  <h4 class="text-gray-500 text-[0.9rem]"> Profession </h4>
+
+                  <p class="text-gray-500 my-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                  </p>
+                </div>
               </div>
 
-              <div class="col-span-2 border-2">
-                Item 2
+              <!-- Card 2-->
+              <div style="background-position: top right; background-size: 40%; background-image: url('image/ux.png');" class="bg-opacity-50 img-container col-span-2 border-2 min-h-[200px] rounded-xl">
+                <div class="mt-[-45px] overflow-hidden ml-[1.5rem] rounded-full bg-blue-500 text-white flex items-center justify-center w-[90px] h-[90px]">
+                  <img src="image/user.png" class="max-w-full" />
+                </div>
+
+                <div class="w-[80%] mx-auto my-2">
+                  <h3 class="font-semibold text-gray-800"> John Doe </h3>
+                  <h4 class="text-gray-500 text-[0.9rem]"> Profession </h4>
+
+                  <p class="text-gray-500 my-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                  </p>
+                </div>
               </div>
 
-              <div class="col-span-2 border-2">
-                Item 3
+              <!-- Card 3 -->
+              <div style="background-position: top right; background-size: 40%; background-image: url('image/ux.png');" class="bg-opacity-50 img-container col-span-2 border-2 min-h-[200px] rounded-xl">
+                <div class="mt-[-45px] overflow-hidden ml-[1.5rem] rounded-full bg-blue-500 text-white flex items-center justify-center w-[90px] h-[90px]">
+                  <img src="image/user.png" class="max-w-full" />
+                </div>
+
+                <div class="w-[80%] mx-auto my-2">
+                  <h3 class="font-semibold text-gray-800"> John Doe </h3>
+                  <h4 class="text-gray-500 text-[0.9rem]"> Profession </h4>
+
+                  <p class="text-gray-500 my-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -187,7 +245,7 @@
 
         <!-- Features -->
         <section class="w-[80%] sm:w-[65%] mx-auto mt-[-4rem] grid grid-cols-1 sm:grid-cols-6">
-          <div class="col-span-2 bg-[#e8ffe8] border-2 min-h-[130px] shadow rounded-tl-lg rounded-tr-lg sm:rounded-bl-lg">
+          <div class="col-span-2 bg-[#e8ffe8] border-2 min-h-[130px] shadow rounded-tl-lg rounded-tr-lg sm:rounded-tr-[0] sm:rounded-bl-lg">
 
           </div>
 
