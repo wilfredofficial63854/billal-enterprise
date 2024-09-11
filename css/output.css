@@ -667,6 +667,10 @@ video {
   inset-inline-end: 0.25rem;
 }
 
+.left-\[-1px\] {
+  left: -1px;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -937,6 +941,10 @@ video {
   height: 0.25rem;
 }
 
+.h-11 {
+  height: 2.75rem;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -955,6 +963,10 @@ video {
 
 .h-\[60vh\] {
   height: 60vh;
+}
+
+.h-\[8px\] {
+  height: 8px;
 }
 
 .h-\[90px\] {
@@ -981,12 +993,12 @@ video {
   min-height: 200px;
 }
 
-.min-h-\[400px\] {
-  min-height: 400px;
-}
-
 .min-h-\[40vh\] {
   min-height: 40vh;
+}
+
+.w-11 {
+  width: 2.75rem;
 }
 
 .w-12 {
@@ -1005,12 +1017,16 @@ video {
   width: 2.25rem;
 }
 
-.w-\[65\%\] {
-  width: 65%;
+.w-\[50px\] {
+  width: 50px;
 }
 
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-\[8px\] {
+  width: 8px;
 }
 
 .w-\[90\%\] {
@@ -1037,6 +1053,18 @@ video {
   width: 100%;
 }
 
+.w-\[100vw\] {
+  width: 100vw;
+}
+
+.w-\[50vw\] {
+  width: 50vw;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .max-w-\[40px\] {
   max-width: 40px;
 }
@@ -1049,8 +1077,16 @@ video {
   flex-shrink: 1;
 }
 
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
 .shrink {
   flex-shrink: 1;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
 }
 
 .flex-grow {
@@ -1113,6 +1149,16 @@ video {
 
 .transform-none {
   transform: none;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .cursor-pointer {
@@ -2087,6 +2133,11 @@ video {
   border-color: rgb(22 163 74 / var(--tw-border-opacity));
 }
 
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
 .bg-\[\#17b978\] {
   --tw-bg-opacity: 1;
   background-color: rgb(23 185 120 / var(--tw-bg-opacity));
@@ -2110,6 +2161,11 @@ video {
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
 .bg-gray-100 {
@@ -2140,6 +2196,11 @@ video {
 .bg-yellow-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(202 138 4 / var(--tw-bg-opacity));
+}
+
+.bg-orange-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {

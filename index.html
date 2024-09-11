@@ -23,6 +23,7 @@
         .mini-header{
           font-family: "Gloria Hallelujah", cursive;
         }
+
       </style>
   </head>
 
@@ -146,15 +147,50 @@
 
       <!-- Services -->
       <section class="w-full bg-gray-50 py-[10vh]">
-        <div class="w-[65%] min-h-[400px] border-2 mx-auto">
-          <h1 class="mini-header my-2 text-green-600 flex items-center">
-            <img src="image/leaves.png" class="w-7 mr-2" />
-            <span class="">our services </span>
-          </h1>
-          <div class="flex items-center">
-            <h1 class="text-gray-800 text-4xl font-bold"> We offer the best services </h1>
+        <div class="w-[80%] sm:w-[65%] mx-auto grid sm:grid-cols-10 gap-5">
+
+          <div class="border-2 rounded-xl flex items-center justify-center col-span-5 bg-white">
+            <div class="p-5">
+              <h1 class="mini-header my-2 text-green-600 flex items-center">
+                <img src="image/leaves.png" class="w-7 mr-2" />
+                <span class="">our services </span>
+              </h1>
+                <h1 class="text-gray-800 text-4xl font-bold"> We offer the best services </h1>
+                <p class="my-2 text-gray-400"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                </p>
+
+                <!-- Slides controls -->
+                <div class="flex items-center my-5">
+                  <!-- Left -->
+                  <span id="previous-service-slide" class="mr-2 rounded-full cursor-pointer text-[0.8rem] flex items-center justify-center w-11 h-11 transition bg-yellow-600 hover:bg-yellow-800 text-white">
+                    <i class="relative left-[-1px] fa-solid fa-angles-left"></i>
+                  </span>
+
+                  <!-- Right -->
+                  <span id="next-service-slide" class="rounded-full cursor-pointer text-[0.8rem] flex items-center justify-center w-11 h-11 bg-green-600 transition hover:bg-green-800 text-white">
+                    <i class="fa-solid fa-angles-right"></i>
+                  </span>
+                </div>
+            </div>
           </div>
 
+          <div id="slides-wrapper" class="overflow-hidden border-2 rounded-xl flex items-center justify-center col-span-5">
+              <!-- Slides Container -->
+              <div id="slides-container" class="flex items-center w-[100%] h-full">
+                <!-- Slide 1 -->
+                <div class="w-[100%] min-h-[200px] bg-black h-full shrink-0"></div>
+
+                <!-- Slide 2 -->
+                <div class="w-[100%] min-h-[200px] bg-blue-600 h-full shrink-0"></div>
+
+                <!-- Slide 3 -->
+                <div class="w-[100%] min-h-[200px] bg-yellow-600 h-full shrink-0"></div>
+
+                <!-- Slide 1 -->
+                <div class="w-[100%] min-h-[200px] bg-black h-full shrink-0"></div>
+              <div>
+          </div>
           <!--<div class="w-full grid grid-cols-10 my-5">
             <div class="col-span-8">
               <h1 class="mini-header"> Our services </h1>
@@ -231,8 +267,17 @@
                 </div>
               </div>
             </div>
+
+
+            <div class="w-full flex items-center justify-center">
+              <span class="w-[8px] h-[8px] rounded-full bg-green-600 animate-pulse"> </span>
+              <span class="w-[50px] h-[8px] rounded-xl bg-green-600 mx-2 animate-pulse"> </span>
+              <span class="w-[8px] h-[8px] rounded-full bg-green-600 animate-pulse"> </span>
+            </div>
           </div>
         </section>
+
+
 
         <!-- Achievements -->
         <section style="background-image: url('image/img5.jpg');" class="img-container w-full h-[59vh] sm:h-[70vh]">
@@ -261,8 +306,13 @@
         <!-- Our Partners -->
           <section class="w-full bg-white py-[10vh]">
             <div class="w-[80%] sm:w-[65%] mx-auto">
+
               <div class="text-center w-full">
-                <h1 class="text-gray-800 text-4xl font-bold"> Our Partners </h1>
+                <h1 class="mini-header my-2 text-green-600 flex items-center justify-center">
+                  <img src="image/leaves.png" class="w-7 mr-2" />
+                  <span class="">customer feedback </span>
+                </h1>
+                <h1 class="text-gray-800 text-4xl font-bold">Some of our Partners </h1>
               </div>
 
               <div class="w-full gap-5 grid grid-cols-1 sm:grid-cols-6 my-[5vh]">
@@ -286,7 +336,7 @@
             <div class="inset-0 w-full h-full bg-black bg-opacity-80 flex items-center justify-center">
               <div class="text-center sm:text-left mx-auto w-[90%] sm:flex items-center justify-between">
                 <h1 class="my-5 sm:my-0 text-white text-2xl font-bold w-[90%] sm:w-[40%]"> Need any help with your farm? </h1>
-                <a href="#" class="my-5 sm:my-0 text-[0.8rem] py-2 px-5 rounded text-white bg-yellow-600 font-semibold transition hover:bg-yellow-800">
+                <a href="#" class="my-5 sm:my-0 text-[0.8rem] py-2 px-5 rounded text-white  font-semibold transition bg-yellow-600 hover:bg-yellow-800">
                    Contact Us
                    <i class="fa-solid fa-angles-right"></i>
                  </a>
@@ -375,5 +425,66 @@
             </div>
           </footer>
     </main>
+
+
+    <!-- jQuery Script -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+
+        let slideCount = 1; // Slide counter
+
+      function slideShow(slideLimit, slideDirection, slideContainer, animateContainer, slideDuration) {
+        let divWidth = $(slideContainer).width(); // Get the width of the container
+        let newWidth = 0;
+
+        // Handle "right" direction when slideCount reaches the limit
+        if (slideCount >= slideLimit && slideDirection == "right") {
+          slideCount = 1; // Reset to first slide
+          newWidth = 0; // Move back to the first slide
+
+          $(slideContainer).css("left", "0px");
+          $(slideContainer).css("transition", "none");
+
+        }else if (slideCount == 1 && slideDirection == "left") {
+          slideCount = 1; // Go to the last slide
+          newWidth = 0; // Calculate width for the last slide
+
+          $(slideContainer).css("left", "0px");
+          $(slideContainer).css("transition", "none");
+
+        }else {
+          // Increase or decrease the slide count depending on direction
+          if (slideDirection == 'right') {
+            slideCount++;
+          } else if (slideDirection == "left") {
+            slideCount--;
+          }
+
+          // Calculate new width based on slide count
+          newWidth = divWidth * (slideCount - 1);
+
+          alert("New width: " + newWidth + " Slide count: " + slideCount);
+
+          $(animateContainer).css("position", "relative");
+
+          $(animateContainer).animate({
+            left: -newWidth + "px" // Move slides correctly, left for both directions
+          }, slideDuration);
+        }
+      }
+
+      $('#next-service-slide').click(function () {
+        slideShow(4, "right", "#slides-wrapper", "#slides-container", 500);
+      });
+
+      $('#previous-service-slide').click(function () {
+        slideShow(4, "left", "#slides-wrapper", "#slides-container", 500);
+      });
+
+
+
+      });
+    </script>
   </body>
 </html>
