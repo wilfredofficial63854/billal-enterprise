@@ -810,6 +810,10 @@ video {
   margin-right: 1.25rem;
 }
 
+.mr-\[10px\] {
+  margin-right: 10px;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -822,8 +826,8 @@ video {
   margin-top: -4rem;
 }
 
-.mr-\[10px\] {
-  margin-right: 10px;
+.mt-\[4rem\] {
+  margin-top: 4rem;
 }
 
 .box-border {
