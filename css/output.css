@@ -671,6 +671,14 @@ video {
   left: -100%;
 }
 
+.right-\[-30px\] {
+  right: -30px;
+}
+
+.right-\[40px\] {
+  right: 40px;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -681,6 +689,38 @@ video {
 
 .top-\[5px\] {
   top: 5px;
+}
+
+.right-\[70px\] {
+  right: 70px;
+}
+
+.right-\[-70px\] {
+  right: -70px;
+}
+
+.right-\[-05px\] {
+  right: -05px;
+}
+
+.right-\[-50px\] {
+  right: -50px;
+}
+
+.right-\[-10px\] {
+  right: -10px;
+}
+
+.right-\[-5px\] {
+  right: -5px;
+}
+
+.right-\[10px\] {
+  right: 10px;
+}
+
+.right-\[15px\] {
+  right: 15px;
 }
 
 .isolate {
@@ -1050,8 +1090,8 @@ video {
   width: 50px;
 }
 
-.w-\[70px\] {
-  width: 70px;
+.w-\[60px\] {
+  width: 60px;
 }
 
 .w-\[80\%\] {
@@ -1086,14 +1126,6 @@ video {
   width: 100%;
 }
 
-.w-\[40px\] {
-  width: 40px;
-}
-
-.w-\[60px\] {
-  width: 60px;
-}
-
 .min-w-\[45\%\] {
   min-width: 45%;
 }
@@ -1108,14 +1140,6 @@ video {
 
 .max-w-full {
   max-width: 100%;
-}
-
-.max-w-\[50\%\] {
-  max-width: 50%;
-}
-
-.max-w-\[10\%0\$\] {
-  max-width: 10%0$;
 }
 
 .flex-shrink {
@@ -2132,6 +2156,10 @@ video {
   border-right-width: 1px;
 }
 
+.border-r-\[2rem\] {
+  border-right-width: 2rem;
+}
+
 .border-s {
   border-inline-start-width: 1px;
 }
@@ -2170,6 +2198,11 @@ video {
 
 .border-none {
   border-style: none;
+}
+
+.border-\[\#48AF2C\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(72 175 44 / var(--tw-border-opacity));
 }
 
 .border-gray-200 {
@@ -2436,6 +2469,10 @@ video {
   padding-bottom: 4rem;
 }
 
+.pr-0 {
+  padding-right: 0px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2520,11 +2557,6 @@ video {
 
 .text-\[3rem\] {
   font-size: 3rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-lg {
@@ -3180,10 +3212,6 @@ video {
     width: 40%;
   }
 
-  .sm\:w-\[50\%\] {
-    width: 50%;
-  }
-
   .sm\:w-\[60\%\] {
     width: 60%;
   }
@@ -3194,6 +3222,10 @@ video {
 
   .sm\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .sm\:w-\[80\%\] {
+    width: 80%;
   }
 
   .sm\:grid-cols-10 {
@@ -3236,6 +3268,10 @@ video {
 
   .sm\:p-0 {
     padding: 0px;
+  }
+
+  .sm\:p-5 {
+    padding: 1.25rem;
   }
 
   .sm\:text-left {
