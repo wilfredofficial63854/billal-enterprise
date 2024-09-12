@@ -966,12 +966,12 @@ video {
   height: 100vh;
 }
 
-.h-\[120px\] {
-  height: 120px;
-}
-
 .h-\[25vh\] {
   height: 25vh;
+}
+
+.h-\[50px\] {
+  height: 50px;
 }
 
 .h-\[59vh\] {
@@ -992,14 +992,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[70px\] {
-  height: 70px;
-}
-
-.h-\[50px\] {
-  height: 50px;
 }
 
 .min-h-\[100px\] {
@@ -1050,10 +1042,6 @@ video {
   width: 100px;
 }
 
-.w-\[120px\] {
-  width: 120px;
-}
-
 .w-\[50px\] {
   width: 50px;
 }
@@ -1088,18 +1076,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[70px\] {
-  width: 70px;
-}
-
-.min-w-\[100px\] {
-  min-width: 100px;
-}
-
-.min-w-\[50\%\] {
-  min-width: 50%;
 }
 
 .min-w-\[45\%\] {
@@ -2082,20 +2058,12 @@ video {
   border-top-left-radius: 1rem;
 }
 
-.rounded-tl-lg {
-  border-top-left-radius: 0.5rem;
-}
-
 .rounded-tr {
   border-top-right-radius: 0.25rem;
 }
 
 .rounded-tr-2xl {
   border-top-right-radius: 1rem;
-}
-
-.rounded-tr-lg {
-  border-top-right-radius: 0.5rem;
 }
 
 .border {
@@ -2206,11 +2174,6 @@ video {
   background-color: rgb(23 185 120 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#e8ffe8\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(232 255 232 / var(--tw-bg-opacity));
-}
-
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
@@ -2249,6 +2212,11 @@ video {
 .bg-green-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.bg-green-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 101 52 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -2514,24 +2482,16 @@ video {
   font-size: 0.9rem;
 }
 
-.text-\[1rem\] {
-  font-size: 1rem;
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
 }
 
 .text-\[2\.5rem\] {
   font-size: 2.5rem;
 }
 
-.text-\[2rem\] {
-  font-size: 2rem;
-}
-
 .text-\[3rem\] {
   font-size: 3rem;
-}
-
-.text-\[1\.5rem\] {
-  font-size: 1.5rem;
 }
 
 .font-bold {
@@ -3210,22 +3170,18 @@ video {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
   .sm\:divide-x > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-x-reverse: 0;
     border-right-width: calc(1px * var(--tw-divide-x-reverse));
     border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
   }
 
-  .sm\:rounded-bl-lg {
-    border-bottom-left-radius: 0.5rem;
-  }
-
   .sm\:rounded-tl-lg {
     border-top-left-radius: 0.5rem;
-  }
-
-  .sm\:rounded-tr-\[0\] {
-    border-top-right-radius: 0;
   }
 
   .sm\:rounded-tr-lg {
