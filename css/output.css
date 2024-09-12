@@ -831,6 +831,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-\[-3rem\] {
+  margin-top: -3rem;
+}
+
 .mt-\[-45px\] {
   margin-top: -45px;
 }
@@ -841,14 +845,6 @@ video {
 
 .mt-\[4rem\] {
   margin-top: 4rem;
-}
-
-.mt-\[-3\.5rem\] {
-  margin-top: -3.5rem;
-}
-
-.mt-\[-3rem\] {
-  margin-top: -3rem;
 }
 
 .box-border {
@@ -1054,6 +1050,10 @@ video {
   width: 50px;
 }
 
+.w-\[70px\] {
+  width: 70px;
+}
+
 .w-\[80\%\] {
   width: 80%;
 }
@@ -1086,6 +1086,14 @@ video {
   width: 100%;
 }
 
+.w-\[40px\] {
+  width: 40px;
+}
+
+.w-\[60px\] {
+  width: 60px;
+}
+
 .min-w-\[45\%\] {
   min-width: 45%;
 }
@@ -1100,6 +1108,14 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-\[50\%\] {
+  max-width: 50%;
+}
+
+.max-w-\[10\%0\$\] {
+  max-width: 10%0$;
 }
 
 .flex-shrink {
@@ -1666,10 +1682,6 @@ video {
 
 .gap-\[10px\] {
   gap: 10px;
-}
-
-.gap-\[5px\] {
-  gap: 5px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2508,6 +2520,16 @@ video {
 
 .text-\[3rem\] {
   font-size: 3rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
