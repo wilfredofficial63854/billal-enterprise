@@ -843,6 +843,14 @@ video {
   margin-top: 4rem;
 }
 
+.mt-\[-3\.5rem\] {
+  margin-top: -3.5rem;
+}
+
+.mt-\[-3rem\] {
+  margin-top: -3rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1654,6 +1662,14 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.gap-\[5px\] {
+  gap: 5px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
