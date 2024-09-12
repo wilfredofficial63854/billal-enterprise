@@ -57,16 +57,16 @@
           <div class="col-span-1 sm:col-span-7 flex items-center justify-center">
 
             <ul id="nav" class="fixed left-[-100%] top-0 sm:top-auto w-full p-5 sm:p-0 h-[100vh] sm:h-auto bg-white sm:left-0 sm:relative sm:flex items-center justify-between sm:w-[70%] font-semibold">
-              <li class="sm:hidden flex items-center justify-end">
-                <span id="close-nav" class="cursor-pointer border-2 rounded-md p-2 text-[1rem] text-gray-700 flex items-center justify-center ml-5">
-                  <i class="fa-solid fa-arrow-left-long"></i>
-                </span>
-              </li>
               <li class="my-2 border-b-2 sm:border-0 py-5"><a href="#"> <span class="transition hover:text-green-600 text-gray-700">Home</span> </a></li>
               <li class="my-2 border-b-2 sm:border-0 py-5"><a href="#"> <span class="transition hover:text-green-600text-gray-700">About Us</span> </a></li>
               <li class="my-2 border-b-2 sm:border-0 py-5"><a href="#"> <span class="transition hover:text-green-600 text-gray-700">Services</span> </a></li>
               <li class="my-2 border-b-2 sm:border-0 py-5"><a href="#"> <span class="transition hover:text-green-600 text-gray-700">Products</span> </a></li>
               <li class="my-2 border-b-2 sm:border-0 py-5"><a href="#"> <span class="transition hover:text-green-600 text-gray-700">Testimonials</span> </a></li>
+              <li class="sm:hidden flex items-center justify-end">
+                <span id="close-nav" class="cursor-pointer border-2 bg-green-800 rounded-md p-2 text-[1.5rem] text-white flex items-center justify-center ml-5">
+                  <i class="fa-solid fa-arrow-left-long"></i>
+                </span>
+              </li>
             </ul>
           </div>
 
@@ -383,18 +383,36 @@
           </div>
         </section>
 
-        <!-- Features -->
-        <section class="w-[80%] sm:w-[65%] mx-auto mt-[-4rem] grid grid-cols-1 sm:grid-cols-6">
-          <div class="col-span-2 bg-[#e8ffe8] border-2 min-h-[130px] shadow rounded-tl-lg rounded-tr-lg sm:rounded-tr-[0] sm:rounded-bl-lg">
-
+        <section class="w-[80%] sm:w-[65%] bg-gray-100 mx-auto mt-[-4rem] grid grid-cols-1 sm:grid-cols-6 divide-y sm:divide-x">
+          <!-- Item 1 -->
+          <div class="flex p-2 items-center sm:justify-center col-span-2 min-h-[130px] shadow">
+            <span class="mr-2 flex shadow-lg bg-white border-2 border-gray-200 items-center justify-center shrink-0 w-[50px] h-[50px] rounded-full p-2">
+              <img  class="max-w-[100%]" src="image/farmer.png" />
+            </span>
+            <div class="shrink-0 min-w-[45%]">
+              <h2 class="font-bold text-[1.5rem] text-gray-800"> 520  </h2>
+              <h3 class="w-full text-gray-600 text-[0.9rem] font-semibold w-[100px] my-2 shrink-0"> Smallholder farmers supported </h3>
+            </div>
           </div>
-
-          <div class="col-span-2 bg-[#e8ffe8] border-2 min-h-[130px] shadow">
-
+          <!-- Item 2 -->
+          <div class="flex p-2 items-center sm:justify-center col-span-2 min-h-[130px] shadow">
+            <span class="mr-2 flex shadow-lg bg-white border-2 border-gray-200 items-center justify-center shrink-0 w-[50px] h-[50px] rounded-full p-2">
+              <img  class="max-w-[100%]" src="image/sprout.png" />
+            </span>
+            <div class="shrink-0 min-w-[45%]">
+              <h2 class="font-bold text-[1.5rem] text-gray-800"> 1,550 </h2>
+              <h3 class="w-full text-gray-600 text-[0.9rem] font-semibold w-[100px] my-2 shrink-0"> Acres cultivated </h3>
+            </div>
           </div>
-
-          <div class="col-span-2 bg-[#e8ffe8] border-2 min-h-[130px] shadow sm:rounded-tr-lg rounded-bl-lg rounded-br-lg">
-
+          <!-- Item 3 -->
+          <div class="flex p-2 items-center sm:justify-center col-span-2 min-h-[130px] shadow">
+            <span class="mr-2 flex shadow-lg bg-white border-2 border-gray-200 items-center justify-center shrink-0 w-[50px] h-[50px] rounded-full p-2">
+              <img  class="max-w-[100%]" src="image/reward.png" />
+            </span>
+            <div class="shrink-0 min-w-[45%]">
+              <h2 class="font-bold text-[1.5rem] text-gray-800"> 2012 </h2>
+              <h3 class="w-full text-gray-600 text-[0.9rem] font-semibold w-[100px] my-2 shrink-0">District Best Farmer Award </h3>
+            </div>
           </div>
         </section>
 
