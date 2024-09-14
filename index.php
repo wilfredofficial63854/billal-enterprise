@@ -284,18 +284,90 @@
       </section>
 
       <!-- Featured products -->
-      <section class="w-full p-5 my-5 bg-slate-800">
-        <div class="w-[80%] sm:w-[70%] mx-auto">
-          <div class="text-center w-full">
-            <h1 class="mini-header my-2 text-green-600 flex items-center justify-center">
-              <img src="image/leaves.png" class="w-7 mr-2" />
-              <span class="">what's in store</span>
-            </h1>
-            <h1 class="text-gray-800 text-4xl font-bold"> Featured Products </h1>
-          </div>
+      <section class="w-full bg-slate-800 border-2 border-slate-800">
+        <div class="w-[80%] mx-auto my-[10vh]">
+          <div class="w-full grid grid-cols-1 sm:grid-cols-10 gap-5">
+            <div class="text-left col-span-4">
 
-          <div class="">
+              <span class="w-[200px] my-5">
+                <img src="image/shopping-cart2.png" class="max-w-[100%]" />
+              </span>
+            </div>
 
+            <div class="col-span-6">
+              <h1 class="mini-header my-2 text-green-600 flex items-center">
+                <img src="image/leaves.png" class="w-7 mr-2" />
+                <span class="">what's in store</span>
+              </h1>
+              <div class="w-full flex items-center justify-between">
+                <h1 class="text-white text-4xl font-bold"> Featured Products </h1>
+                <a href="store.php" target="_blank" class="mr-5 sm:m-[0] text-[0.8rem] py-2 px-5 shadow-md rounded transition hover:shadow-none text-white bg-yellow-600 font-semibold transition hover:bg-yellow-800">
+                  <i class="fas fa-shopping-cart flex shrink-0 items-center justify-between"></i>
+                    View more in  our store
+                  <i class="fa-solid fa-angles-right"></i>
+               </a>
+              </div>
+
+              <!-- products -->
+              <div class="w-full my-[10vh] grid grid-cols-1 gap-5 sm:grid-cols-3">
+                <!-- Card 1 -->
+                <div class="col-span-1 transform sm:translate-y-8 hover:translate-y-0 transition translate-y-0 p-2 sm:py-2 sm:px-5 bg-white rounded-lg">
+                  <div class="w-[60%] mx-auto text-center">
+                    <img src="image/shopping-cart.png" class="max-w-[100%]" />
+                  </div>
+                  <div>
+                    <h3 class="my-2 text-gray-800 text-[1.3rem] font-semibold"> Fertiliers </h3>
+                    <p class="text-[0.9rem] text-gray-600">
+                       Prized between <span class="font-semibold">GH&#8373;440.00</span> - <span class="font-semibold">GH&#8373;480.00</span>
+                       depending on the type (e.g., Chemico, Yara, AMG fertilizers).
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-span-1 transform  sm:-translate-y-8 hover:-translate-y-16 transition translate-y-0 p-2 sm:py-2 sm:px-5 bg-white rounded-lg">
+                  <div class="w-[60%] mx-auto text-center">
+                    <img src="image/shopping-cart.png" class="max-w-[100%]" />
+                  </div>
+                  <div>
+                    <h3 class="my-2 text-gray-800 text-[1.3rem] font-semibold"> Hybrid Seeds </h3>
+                    <p class="text-[0.9rem] text-gray-600">
+                       Prized between <span class="font-semibold">GH&#8373;650.00</span> - <span class="font-semibold">GH&#8373;1000.00</span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-span-1 transform  sm:translate-y-8 hover:translate-y-0 transition translate-y-0 p-2 sm:py-2 sm:px-5 bg-white rounded-lg">
+                  <div class="w-[60%] mx-auto text-center">
+                    <img src="image/shopping-cart.png" class="max-w-[100%]" />
+                  </div>
+                  <div>
+                    <h3 class="my-2 text-gray-800 text-[1.3rem] font-semibold"> Agro-Chemicals </h3>
+                    <p class="text-[0.9rem] text-gray-600">
+                       Prized between <span class="font-semibold">GH&#8373;50.00</span> - <span class="font-semibold">GH&#8373;150.00</span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Second row -->
+
+
+                <!-- Card 4 -->
+                <div class="col-span-1 "></div>
+                <div class="col-span-1 transform  sm:-translate-y-8 hover:translate-y-8 transition translate-y-0 p-2 sm:py-2 sm:px-5 bg-white rounded-lg">
+                  <div class="w-[60%] mx-auto text-center">
+                    <img src="image/shopping-cart.png" class="max-w-[100%]" />
+                  </div>
+                  <div>
+                    <h3 class="my-2 text-gray-800 text-[1.3rem] font-semibold"> Cement </h3>
+                    <p class="text-[0.9rem] text-gray-600">
+                       Prized between <span class="font-semibold">GH&#8373;100.00</span> - <span class="font-semibold">GH&#8373;115.00</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

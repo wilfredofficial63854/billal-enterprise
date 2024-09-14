@@ -40,7 +40,7 @@
 
     <!-- Action -->
     <div class="col-span-7 sm:col-span-2 flex items-center justify-between sm:justify-end">
-      <a href="#" class="mr-5 sm:m-[0] text-[0.8rem] py-2 px-5 shadow-md rounded transition hover:shadow-none text-white bg-yellow-600 font-semibold transition hover:bg-yellow-800">
+      <a href="store.php" target="_blank" class="mr-5 sm:m-[0] text-[0.8rem] py-2 px-5 shadow-md rounded transition hover:shadow-none text-white bg-yellow-600 font-semibold transition hover:bg-yellow-800">
         <i class="fas fa-shopping-cart flex shrink-0 items-center justify-between"></i>
         Our Store
          <i class="fa-solid fa-angles-right"></i>
