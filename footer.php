@@ -58,9 +58,9 @@
         <ul class="text-[0.9rem] my-2">
           <li class="my-2"><a href="index.php"> <i class="fa-solid fa-angle-right text-green-600 mr-2"></i> <span class="transition hover:text-gray-100 text-gray-400">Home</span> </a></li>
           <li class="my-2"><a href="about.php"> <i class="fa-solid fa-angle-right text-green-600 mr-2"></i> <span class="transition hover:text-gray-100 text-gray-400">About Us</span> </a></li>
-          <li class="my-2"><a href="#"> <i class="fa-solid fa-angle-right text-green-600 mr-2"></i> <span class="transition hover:text-gray-100 text-gray-400">Services</span> </a></li>
-          <li class="my-2"><a href="#"> <i class="fa-solid fa-angle-right text-green-600 mr-2"></i> <span class="transition hover:text-gray-100 text-gray-400">Products</span> </a></li>
-          <li class="my-2"><a href="#"> <i class="fa-solid fa-angle-right text-green-600 mr-2"></i> <span class="transition hover:text-gray-100 text-gray-400">Testimonials</span> </a></li>
+          <li class="my-2"><a href="index.php#services"> <i class="fa-solid fa-angle-right text-green-600 mr-2"></i> <span class="transition hover:text-gray-100 text-gray-400">Services</span> </a></li>
+          <li class="my-2"><a href="index.php#featured-products"> <i class="fa-solid fa-angle-right text-green-600 mr-2"></i> <span class="transition hover:text-gray-100 text-gray-400">Products</span> </a></li>
+          <li class="my-2"><a href="index.php#testimonials"> <i class="fa-solid fa-angle-right text-green-600 mr-2"></i> <span class="transition hover:text-gray-100 text-gray-400">Testimonials</span> </a></li>
         </ul>
       </div>
 

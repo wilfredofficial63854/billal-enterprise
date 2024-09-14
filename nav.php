@@ -22,9 +22,9 @@
         </li>
         <li class="my-2 border-b-2 sm:border-0 py-5"><a href="index.php"> <span class="transition hover:text-green-600 text-gray-700">Home</span> </a></li>
         <li class="my-2 border-b-2 sm:border-0 py-5"><a href="about.php"> <span class="transition hover:text-green-600text-gray-700">About Us</span> </a></li>
-        <li class="my-2 border-b-2 sm:border-0 py-5"><a href="#"> <span class="transition hover:text-green-600 text-gray-700">Services</span> </a></li>
-        <li class="my-2 border-b-2 sm:border-0 py-5"><a href="#"> <span class="transition hover:text-green-600 text-gray-700">Products</span> </a></li>
-        <li class="my-2 border-b-2 sm:border-0 py-5"><a href="#"> <span class="transition hover:text-green-600 text-gray-700">Testimonials</span> </a></li>
+        <li class="my-2 border-b-2 sm:border-0 py-5"><a href="index.php#services"> <span class="transition hover:text-green-600 text-gray-700">Services</span> </a></li>
+        <li class="my-2 border-b-2 sm:border-0 py-5"><a href="index.php#featured-products"> <span class="transition hover:text-green-600 text-gray-700">Products</span> </a></li>
+        <li class="my-2 border-b-2 sm:border-0 py-5"><a href="index.php#testimonials"> <span class="transition hover:text-green-600 text-gray-700">Testimonials</span> </a></li>
         <li class="sm:hidden flex items-center justify-end">
         <!--  <span id="close-nav" class="cursor-pointer border-2 bg-green-800 rounded-md p-2 text-[1.5rem] text-white flex items-center justify-center ml-5">
             <i class="fa-solid fa-arrow-left-long"></i>

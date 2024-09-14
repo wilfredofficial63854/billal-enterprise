@@ -15,6 +15,9 @@
       <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 
       <style>
+        html {
+          scroll-behavior: smooth;
+        }
 
         .img-container{
           background-size: cover;

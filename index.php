@@ -15,6 +15,10 @@
       <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 
       <style>
+        html {
+          scroll-behavior: smooth;
+        }
+
 
         .img-container{
           background-size: cover;
@@ -58,7 +62,7 @@
           <div class="w-[80%] sm:w-[65%]">
             <h1 class="text-white text-[3rem] sm:text-[4rem] font-bold w-[90%] sm:w-[80%]"> Agro Business & Construction Services </h1>
             <div class="my-5 flex items-center w-full sm:w-[40%]">
-              <a href="#" class="mr-5 text-[0.8rem] py-2 px-5 rounded text-white bg-yellow-600 font-semibold transition hover:bg-yellow-800">
+              <a href="#services" class="mr-5 text-[0.8rem] py-2 px-5 rounded text-white bg-yellow-600 font-semibold transition hover:bg-yellow-800">
                  Our Services
                  <i class="fa-solid fa-angles-right"></i>
                </a>
@@ -154,7 +158,7 @@
       </section>
 
       <!-- Services -->
-      <section class="w-full bg-gray-50 py-[10vh]">
+      <section id="services" class="w-full bg-gray-50 py-[10vh]">
         <div class="w-[80%] sm:w-[65%] mx-auto grid sm:grid-cols-10 gap-5">
 
           <div class="border-2 rounded-xl flex items-center justify-center col-span-5 bg-white">
@@ -284,7 +288,7 @@
       </section>
 
       <!-- Featured products -->
-      <section class="w-full bg-slate-800 border-2 border-slate-800">
+      <section id="featured-products" class="w-full bg-slate-800 border-2 border-slate-800">
         <div class="w-[80%] mx-auto my-[10vh]">
           <div class="w-full grid grid-cols-1 sm:grid-cols-10 gap-5">
             <div class="text-left col-span-4">
@@ -373,7 +377,7 @@
       </section>
 
       <!-- Testimonials -->
-        <section class="w-full bg-white py-[10vh]">
+        <section id="testimonials" class="w-full bg-white py-[10vh]">
           <div class="w-[80%] sm:w-[70%] mx-auto">
             <div class="text-center w-full">
               <h1 class="mini-header my-2 text-green-600 flex items-center justify-center">
