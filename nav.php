@@ -14,7 +14,7 @@
 
         <!-- Brand -->
         <li class="sm:hidden my-5 flex items-center">
-          <span class="w-[60px] mr-5 shrink-0">
+          <span class="w-[60px] mr-5 shrink-0 overflow-hidden">
             <img src="image/logo.png" class="max-w-[100%]" />
           </span>
 
