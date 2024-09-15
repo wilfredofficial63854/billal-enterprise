@@ -517,7 +517,7 @@
           <!-- Contact us modal -->
           <div class="z-[100] modal micromodal-slide" id="contact-modal" aria-hidden="true">
             <div class="z-[100] modal__overlay" tabindex="-1" data-micromodal-close>
-              <form class="z-[100] modal__container p-2" role="dialog" aria-modal="true" aria-labelledby="modal-1-title" action="https://formsubmit.co/wilfredofficial63854@gmail.com" method="POST">
+              <form class="z-[100] modal__container p-2" role="dialog" aria-modal="true" aria-labelledby="modal-1-title" action="https://formsubmit.co/tontiebilali@gmail.com" method="POST">
                 <div class="flex items-center justify-between">
                   <span class="flex items-center justify-center rounded-lg border-2 p-2 overflow-hidden w-[70px] h-[70px]"><img src="image/logo.png" class="max-w-[100%]" /></span>
                   <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
