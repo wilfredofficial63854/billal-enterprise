@@ -315,9 +315,9 @@
               <!-- products -->
               <div class="w-full my-[10vh] grid grid-cols-1 gap-5 sm:grid-cols-3">
                 <!-- Card 1 -->
-                <div class="col-span-1 transform sm:translate-y-8 hover:translate-y-0 transition translate-y-0 p-2 sm:py-2 sm:px-5 bg-white rounded-lg">
-                  <div class="w-[60%] mx-auto text-center">
-                    <img src="image/shopping-cart.png" class="max-w-[100%]" />
+                <div class="col-span-1 transform sm:translate-y-8 hover:translate-y-0 transition translate-y-0 p-5 bg-white rounded-lg">
+                  <div class="w-[100%] mx-auto text-center">
+                    <img src="image/img13.jpg" class="max-w-[100%]" />
                   </div>
                   <div>
                     <h3 class="my-2 text-gray-800 text-[1.3rem] font-semibold"> Fertiliers </h3>
@@ -329,9 +329,9 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div class="col-span-1 transform  sm:-translate-y-8 hover:-translate-y-16 transition translate-y-0 p-2 sm:py-2 sm:px-5 bg-white rounded-lg">
-                  <div class="w-[60%] mx-auto text-center">
-                    <img src="image/shopping-cart.png" class="max-w-[100%]" />
+                <div class="col-span-1 transform  sm:-translate-y-8 hover:-translate-y-16 transition translate-y-0 p-5 bg-white rounded-lg">
+                  <div class="w-[100%] mx-auto text-center">
+                    <img src="image/img14.jpg" class="max-w-[100%]" />
                   </div>
                   <div>
                     <h3 class="my-2 text-gray-800 text-[1.3rem] font-semibold"> Hybrid Seeds </h3>
@@ -342,9 +342,9 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="col-span-1 transform  sm:translate-y-8 hover:translate-y-0 transition translate-y-0 p-2 sm:py-2 sm:px-5 bg-white rounded-lg">
-                  <div class="w-[60%] mx-auto text-center">
-                    <img src="image/shopping-cart.png" class="max-w-[100%]" />
+                <div class="col-span-1 transform  sm:translate-y-8 hover:translate-y-0 transition translate-y-0 p-5 bg-white rounded-lg">
+                  <div class="w-[100%] mx-auto text-center">
+                    <img src="image/img8.jpg" class="max-w-[100%]" />
                   </div>
                   <div>
                     <h3 class="my-2 text-gray-800 text-[1.3rem] font-semibold"> Agro-Chemicals </h3>
@@ -359,7 +359,7 @@
 
                 <!-- Card 4 -->
                 <div class="col-span-1 "></div>
-                <div class="col-span-1 transform  sm:-translate-y-8 hover:translate-y-8 transition translate-y-0 p-2 sm:py-2 sm:px-5 bg-white rounded-lg">
+                <div class="col-span-1 transform  sm:-translate-y-8 hover:translate-y-8 transition translate-y-0 p-5 bg-white rounded-lg">
                   <div class="w-[60%] mx-auto text-center">
                     <img src="image/shopping-cart.png" class="max-w-[100%]" />
                   </div>

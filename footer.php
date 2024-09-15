@@ -21,9 +21,11 @@
 
         <!-- Brand -->
         <div class="my-2">
-          <div class="w-[60px] my-2 shrink-0">
-            <img class="max-w-[100%]" src="image/logo.png">
-          </div>
+          <a href="index.php">
+            <div class="w-[60px] h-[60px] rounded-full border-2 flex items-center justify-center bg-white overflow-hidden my-2 shrink-0">
+              <img class="max-w-[100%]" src="image/logo.png">
+            </div>
+          </a>
           <h2 class="text-lg font-bold text-white"> Ibrahim Billali Enterprise  </h2>
         </div>
 
@@ -70,7 +72,7 @@
         <div class="flex my-5">
           <i class="fa-solid fa-map-marker-alt text-green-600 mr-2 relative top-[5px]"></i>
           <p class="text-gray-400">
-            Pien Basic School | Box 36, Upper West Ghana.
+            Pieng Basic School | Box 36, Upper West Ghana.
           </p>
         </div>
 

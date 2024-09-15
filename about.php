@@ -172,14 +172,14 @@
       <section class="w-full my-[10vh] bg-slate-800 p-5">
 
         <div class="mx-auto w-[80%] sm:w-[65%] my-5">
-          <h1 class="mini-header my-2 text-green-600 flex items-center">
-            <img src="image/leaves.png" class="w-7 mr-2" />
-            <span class="">those behind the harvest</span>
-          </h1>
 
           <h1 class="text-white font-bold text-[3rem]"> Our team </h1>
+          <h1 class="mini-header my-2 text-green-600 flex items-center">
+                      <img src="image/leaves.png" class="w-7 mr-2" />
+                      <span class="">those behind the harvest</span>
+                    </h1>
 
-            <div class="w-[80px] h-[5px] rounded-lg bg-blue-500 my-5"></div>
+            <div class="w-[80px] h-[5px] rounded-lg bg-green-600 my-5"></div>
 
           <p class="my-2 text-gray-50 my-2">
             Our team of dedicated professionals, including managers, accountants, and field officers,
@@ -208,7 +208,7 @@
           <div class="col-span-1 bg-white p-2 text-center transform sm:-translate-y-8 transition hover:-translate-y-16 cursor-pointer">
             <img src="image/staff/03.jpg" class="max-w-[100%]"/>
             <h3 class="font-bold text-gray-800"> Mr. Kasim Tijani </h3>
-            <h6 class="text-gray-400"> Field Officer - Challu </h6>
+            <h6 class="text-gray-400">Accountant </h6>
             <h6 class="text-gray-400"> 024-038-1517 </h6>
           </div>
 

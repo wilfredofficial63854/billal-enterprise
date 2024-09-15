@@ -2,9 +2,11 @@
   <div class="w-[80%] grid grid-cols-10 min-h-[10vh] bg-white">
     <!-- Brand -->
     <div class="col-span-2 sm:col-span-1 flex items-center">
-      <span class="w-12 h-12 rounded-full border-2 flex items-center justify-center shrink-0">
-        <img src="image/logo.png" class="max-w-[100%]" />
-      </span>
+      <a href="index.php">
+        <span class="w-12 h-12 rounded-full border-2 flex items-center justify-center shrink-0">
+          <img src="image/logo.png" class="max-w-[100%]" />
+        </span>
+      </a>
     </div>
 
     <!-- Links -->
@@ -14,9 +16,9 @@
 
         <!-- Brand -->
         <li class="sm:hidden my-5 flex items-center">
-          <span class="w-[60px] mr-5 shrink-0 overflow-hidden">
+          <a href="index.php"><span class="w-[60px] mr-5 shrink-0 overflow-hidden">
             <img src="image/logo.png" class="max-w-[100%]" />
-          </span>
+          </span></a>
 
           <h1 class="text-semibold text-[1.5rem] text-green-600"> Ibrahim Billali Enterprise </h1>
         </li>
