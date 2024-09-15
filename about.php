@@ -44,7 +44,7 @@
             <h1 class="text-white text-[3rem] sm:text-[4rem] font-bold w-[90%] sm:w-[80%]"> About Us </h1>
 
             <div class="my-5 flex items-center w-full sm:w-[40%]">
-              <a href="index.html" class="font-bold text-white"> HOME </a>
+              <a href="index.php" class="font-bold text-white"> HOME </a>
               <span class="mx-2 text-yellow-500"> <i class="fa-solid fa-angles-right"></i> </span>
               <a href="#" class="text-yellow-500 font-bold"> ABOUT US </a>
             </div>
@@ -108,7 +108,7 @@
         <div class="col-span-5">
 
 
-          <h1 class="text-gray-800 text-4xl font-bold my-5"> Agriculture & Farming Organic Products </h1>
+          <h1 class="text-gray-800 text-4xl font-bold my-5"> Agribusiness & Construction Services </h1>
 
           <div class="w-[80px] h-[5px] rounded-lg bg-green-500 my-5"></div>
 
