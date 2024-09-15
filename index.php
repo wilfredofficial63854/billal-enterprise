@@ -514,25 +514,48 @@
             </div>
           </section>
 
-          <div class="modal micromodal-slide" id="contact-modal" aria-hidden="true">
-            <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-              <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
-                <header class="modal__header">
-                  <h2 class="modal__title" id="modal-1-title">
-                    Micromodal
-                  </h2>
+          <!-- Contact us modal -->
+          <div class="z-[100] modal micromodal-slide" id="contact-modal" aria-hidden="true">
+            <div class="z-[100] modal__overlay" tabindex="-1" data-micromodal-close>
+              <form class="z-[100] modal__container p-2" role="dialog" aria-modal="true" aria-labelledby="modal-1-title" action="https://formsubmit.co/wilfredofficial63854@gmail.com" method="POST">
+                <div class="flex items-center justify-between">
+                  <span class="flex items-center justify-center rounded-lg border-2 p-2 overflow-hidden w-[70px] h-[70px]"><img src="image/logo.png" class="max-w-[100%]" /></span>
                   <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
-                </header>
-                <main class="modal__content" id="modal-1-content">
-                  <p>
-                    Try hitting the <code>tab</code> key and notice how the focus stays within the modal itself. Also, <code>esc</code> to close modal.
-                  </p>
-                </main>
+                </div>
+
+                <h1 class="text-gray-800 font-semibold text-[1.7rem] my-2"> Need help with anything? Get in touch with us </h1>
+
+                <div class="w-full grid grid-cols-2 gap-[10px] my-5">
+                    <!-- Name -->
+                    <div class="col-span-1">
+                      <p><label class="text-gray-600"> Name </label></p>
+                      <input name="fullname" type="text" placeholder="enter full name" class="my-2 w-full rounded-lg p-2 border-2 outline-none" />
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="col-span-1">
+                      <p><label class="text-gray-600"> Phone </label></p>
+                      <input name="phone" type="text" placeholder="enter phone number" class="my-2 w-full rounded-lg p-2 border-2 outline-none" />
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-span-2">
+                      <p><label class="text-gray-600"> Phone </label></p>
+                      <input name="email" type="email" placeholder="enter email address" class="my-2 w-full rounded-lg p-2 border-2 outline-none" />
+                    </div>
+
+                    <!-- Message -->
+                    <div class="col-span-2">
+                      <p><label class="text-gray-600"> What do you want to discuss </label></p>
+                      <textarea name="message" class="my-2 w-full rounded-lg p-2 border-2 outline-none"></textarea>
+                    </div>
+                </div>
+
                 <footer class="modal__footer">
-                  <button class="modal__btn modal__btn-primary">Continue</button>
+                  <button type="submit" class="modal__btn modal__btn-primary">Continue</button>
                   <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Close</button>
                 </footer>
-              </div>
+              </form>
             </div>
           </div>
 
