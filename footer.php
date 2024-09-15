@@ -3,10 +3,10 @@
   <div class="inset-0 w-full h-full bg-black bg-opacity-80 flex items-center justify-center">
     <div class="text-center sm:text-left mx-auto w-[90%] sm:flex items-center justify-between">
       <h1 class="my-5 sm:my-0 text-white text-2xl font-bold w-[90%] sm:w-[40%]"> Need any help with your farm? </h1>
-      <a href="#" class="my-5 sm:my-0 text-[0.8rem] py-2 px-5 rounded text-white  font-semibold transition bg-yellow-600 hover:bg-yellow-800">
+      <button data-micromodal-trigger="contact-modal" class="my-5 sm:my-0 text-[0.8rem] py-2 px-5 rounded text-white  font-semibold transition bg-yellow-600 hover:bg-yellow-800">
          Contact Us
          <i class="fa-solid fa-angles-right"></i>
-       </a>
+       </button>
     </div>
   </div>
 </section>

@@ -8,6 +8,8 @@
       <meta name="keywords" content="Ibrahim Billali Enterprise, agribusiness Ghana, construction company Tumu, farm inputs Ghana, livestock rearing Ghana, sustainable agriculture, smallholder farmers support, rural employment Ghana, grain production Northern Ghana, building materials Ghana, farm services Tumu, agricultural supplies Ghana">
       <link rel="stylesheet" href="css/output.css">
       <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+      <link rel="stylesheet" href="css/micromodal.css">
+      <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
       <link rel="icon" href="image/logo.png" sizes="32x32">
 
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,17 +62,17 @@
       <section style="background-image: url('image/img2.jpg');" class="overflow-hidden sm:rounded-0 img-container w-full h-[60vh] sm:h-[90vh]">
         <div class="inset-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
           <div class="w-[80%] sm:w-[65%]">
-            <h1 class="text-white text-[3rem] sm:text-[4rem] font-bold w-[90%] sm:w-[80%]"> Agro Business & Construction Services </h1>
-            <div class="my-5 flex items-center w-full sm:w-[40%]">
+            <h1 class="animate__animated animate__fadeInUp text-white text-[3rem] sm:text-[4rem] font-bold w-[90%] sm:w-[80%]"> Agro Business & Construction Services </h1>
+            <div class="animate__animated animate__fadeInUp my-5 flex items-center w-full sm:w-[40%]">
               <a href="#services" class="mr-5 text-[0.8rem] py-2 px-5 rounded text-white bg-yellow-600 font-semibold transition hover:bg-yellow-800">
                  Our Services
                  <i class="fa-solid fa-angles-right"></i>
                </a>
 
-               <a href="#" class="ml-[0.5rem] text-[0.8rem] py-2 px-5 rounded text-white bg-green-600 font-semibold transition hover:bg-green-800">
+               <button data-micromodal-trigger="contact-modal" class="contact-btn ml-[0.5rem] text-[0.8rem] py-2 px-5 rounded text-white bg-green-600 font-semibold transition hover:bg-green-800">
                   Contact Us
                   <i class="fa-solid fa-angles-right"></i>
-                </a>
+                </button>
             </div>
           </div>
         </div>
@@ -138,14 +140,14 @@
           </div>
 
           <div class="my-5 flex items-center">
-            <a href="#" class="mr-5 text-[0.8rem] py-2 px-5 rounded text-white bg-green-600 font-semibold transition hover:bg-green-800">
+            <a href="about.php" class="mr-5 text-[0.8rem] py-2 px-5 rounded text-white bg-green-600 font-semibold transition hover:bg-green-800">
                More about us
                <i class="fa-solid fa-angles-right"></i>
              </a>
 
              <div class="flex items-center">
                <span class="rounded-full overflow-hidden bg-blue-500 text-white flex items-center justify-center w-12 h-12">
-                <img src="image/user.png" class="max-w-full" />
+                <img src="image/staff/01.jpg" class="max-w-full" />
               </span>
 
               <span class="ml-[0.7rem] text-[0.8rem]">
@@ -334,7 +336,7 @@
                     <img src="image/img14.jpg" class="max-w-[100%]" />
                   </div>
                   <div>
-                    <h3 class="my-2 text-gray-800 text-[1.3rem] font-semibold"> Hybrid Seeds </h3>
+                    <h3 class="my-2 text-gray-800 text-[1.3rem] font-semibold">Grains/Farm Produce </h3>
                     <p class="text-[0.9rem] text-gray-600">
                        Prized between <span class="font-semibold">GH&#8373;650.00</span> - <span class="font-semibold">GH&#8373;1000.00</span>
                     </p>
@@ -512,6 +514,29 @@
             </div>
           </section>
 
+          <div class="modal micromodal-slide" id="contact-modal" aria-hidden="true">
+            <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+              <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                <header class="modal__header">
+                  <h2 class="modal__title" id="modal-1-title">
+                    Micromodal
+                  </h2>
+                  <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+                </header>
+                <main class="modal__content" id="modal-1-content">
+                  <p>
+                    Try hitting the <code>tab</code> key and notice how the focus stays within the modal itself. Also, <code>esc</code> to close modal.
+                  </p>
+                </main>
+                <footer class="modal__footer">
+                  <button class="modal__btn modal__btn-primary">Continue</button>
+                  <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Close</button>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+
           <!-- Footer -->
           <?php include('footer.php')?>
     </main>
@@ -519,9 +544,11 @@
 
     <!-- jQuery Script -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/micromodal/dist/micromodal.min.js"></script>
     <script>
       $(document).ready(function(){
 
+        MicroModal.init();
         let slideCount = 1; // Slide counter
 
         function slideShow(slideLimit, slideDirection, slideContainer, animateContainer, slideDuration) {

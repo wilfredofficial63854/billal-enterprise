@@ -1038,6 +1038,10 @@ video {
   height: 5px;
 }
 
+.h-\[60px\] {
+  height: 60px;
+}
+
 .h-\[60vh\] {
   height: 60vh;
 }
@@ -1052,10 +1056,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[60px\] {
-  height: 60px;
 }
 
 .min-h-\[100px\] {
@@ -3426,11 +3426,6 @@ video {
 
   .sm\:p-\[2rem\] {
     padding: 2rem;
-  }
-
-  .sm\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 
   .sm\:py-2 {
